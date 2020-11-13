@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+	<head>
+		<title>From Javascript</title>
+
+	</head>
+
+	<script>
+function myFunction() {
+ 
+
+  var fname=document.getElementById('name').value;
+alert("" +fname);
+
+var email=document.getElementById('email').value;
+alert("" +email);
+
+var mob=document.getElementById('number').value;
+alert("" +mob);
+
+
+}
+</script>
+	<style>
+		form{text-align:center;margin-top:50px;}
+	</style>
+	<body>
+		<form>
+			<label>Name:</label>
+			<input id="name" type="text">
+			<br>
+			<br>
+
+			<label>Email:</label>
+			<input id="email" type="text">
+			<br>
+			<br>
+			<label>Mobile Number:</label>
+			<input id="number" type="number">
+			<br>
+			<br>
+			<button onclick="myFunction()">Submit</button>
+			
+
+		</form>
+
+	</body>
+</html>
